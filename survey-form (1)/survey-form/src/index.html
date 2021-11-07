@@ -1,0 +1,82 @@
+<h1 id="title" class="h1">Disney Movies Survey Form</h1>
+
+<p id="description" class="p">Thank you for taking the time to fill out this survey!</p>
+
+<div id="body">
+  
+<form id="survey-form">
+  
+<label id="name-label" for="name">
+<p>Name</p>
+</label>
+  
+<input id = "name" placeholder="Enter Name Here" type = "text" required>
+  
+<label id="email-label" for="email">
+<p>Email Address</p>
+</label>
+  
+<input id = "email" placeholder="Enter Email Address Here" type = "email" required>
+
+<label id="number-label" for="number">
+<p>Age</p>
+</label>
+  
+<input id = "number" placeholder="Enter Age Here" type = "number" min="10" max="60" required>
+
+<p>Do you watch Disney movies often?</p>
+
+<div class="text1">
+  <input type="radio" name="option" value="1">Yes</input>
+  </br>
+<input type="radio" name="option" value="2">No</input>
+</div>
+
+<p class="p">Of the following Disney movies, select the one that you like best.</p>
+
+<select id="dropdown">
+  <option value="Aladdin">Aladdin</option>
+  <option value="Beauty and the Beast">Beauty and the Beast</option>
+  <option value="Cinderella">Cinderella</option>
+  <option value="Frozen">Frozen</option>
+  <option value="Moana">Moana</option>
+  <option value="Mulan">Mulan</option>
+  <option value="Peter Pan">Peter Pan</option>
+  <option value="The Little Mermaid">Tangled</option>
+  <option value="The Little Mermaid">The Little Mermaid</option>
+  <option value="Wreck-It-Ralph">Wreck-It Ralph</option>
+</select>
+
+<p>Which of the following Disney songs do you like best?</p>
+
+<div class="text1">
+<input type="checkbox" name="checkbox1" value="1">A Whole New World(Aladdin)</input>
+</br>
+
+<input type="checkbox" name="checkbox2" value="2">Give a Little Whistle(Pinocchio)</input>
+</br>
+
+
+<input type="checkbox" name="checkbox3" value="3">Hakuna Matata(The Lion King)</input>
+</br>
+
+
+<input type="checkbox" name="checkbox4" value="4">Shiny(Moana)</input>
+</br>
+
+
+<input type="checkbox" name="checkbox5" value="5">Try Everything(Zootopia)</input>
+</br>
+
+<input type="checkbox" name="checkbox6" value="6">You've Got a Friend in Me(Toy Story)</input>
+</br>
+</div>
+
+<p>Any Additional Comments?</p>
+<textarea id="comment" rows="8" cols="60"></textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+</form>
+</body>
+
+<script src= "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

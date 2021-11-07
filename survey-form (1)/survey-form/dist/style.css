@@ -1,0 +1,43 @@
+h1{
+  color: #d54d7b;
+  font-family: 'Droid serif', serif;
+  font-style: italic;
+}
+
+p{
+  color: #93291b;
+}
+
+.text1{
+  color: #93291b;
+}
+
+body {
+  font-family: system-ui;
+  background: #a7e8f8;
+  color: white;
+  text-align: center;
+}
+
+#body{
+  width:500px;
+  padding:40px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:rgba(0,0,0,0.1);
+  font-size:24px;
+  color:white;
+}
+
+#name{
+  width:250px;
+}
+
+#email{
+  width:250px;
+}
+
+#number{
+  width:140px;
+}
